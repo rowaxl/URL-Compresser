@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import useSWR from 'swr'
 import { fetcher } from '../libs/fetcher'
 import { trimProtocol } from "../libs/utils"
+
 const BASE_URL = process.env['NEXT_PUBLIC_API_URL']
 
 export const useGetShrtcode = (input) => {
