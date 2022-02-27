@@ -46,6 +46,10 @@ export default function Home() {
 
       <Card className="radius-md flex flex-col justify-between h-full">
         <div className="flex flex-col">
+          <div className="font-bold text-xl mb-2">
+            URL Compresser
+          </div>
+
           <div className="flex flex-row justify-between">
             <InputForm url={URL} onSubmit={handleOnSubmit} />
           </div>
