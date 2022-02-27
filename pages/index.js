@@ -44,7 +44,7 @@ export default function Home() {
     <div className="px-12 py-6 flex flex-col justify-center h-full">
       <Background />
 
-      <Card className="radius-md flex flex-col justify-between h-full">
+      <Card className="bg-white radius-md flex flex-col justify-between h-full">
         <div className="flex flex-col">
           <div className="font-bold text-xl mb-2">
             URL Compresser
@@ -58,7 +58,7 @@ export default function Home() {
               <Card className="mt-10 flex flex-col justify-between h-full">
                 <div className="px-6 py-4 flex flex-col items-start">
                   <div className="font-bold text-xl mb-4">
-                    Compressed URLs
+                    Compressed:
                   </div>
 
                   <LinkButton url={result.full_short_link} onClickLink={handleClickLink} />
